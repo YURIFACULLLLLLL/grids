@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: cornflowerblue ;
+}
+
+.container {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 15% 35% 35% 15%;
+    row-gap: 10px;
+    column-gap: 5px;
+}
+
+
+
+.header {
+    background-color: green;
+    grid-row: 1;
+    grid-column: span 6;
+    
+}
+
+#rosa {
+    background-color: deeppink;
+    grid-row: 2;
+    grid-column: span 2;
+}
+
+#roxo {
+    background-color: blueviolet;
+    grid-row: 3;
+}
+
+#rodape {
+    background-color: orangered;
+    grid-row: 4;
+    grid-column: span 6;
+}
